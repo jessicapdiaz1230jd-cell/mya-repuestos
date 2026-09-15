@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1789491460705,
+      "tag": "0000_workable_jack_murdock",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1789491477713,
+      "tag": "0001_uneven_spacker_dave",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1789493652781,
+      "tag": "0002_vengeful_anthem",
+      "breakpoints": true
+    }
+  ]
+}

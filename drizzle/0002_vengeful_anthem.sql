@@ -1,0 +1,1 @@
+ALTER TABLE `orders` ADD `custom_data` text DEFAULT '{}' NOT NULL;
