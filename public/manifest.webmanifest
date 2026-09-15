@@ -1,0 +1,12 @@
+{
+  "name": "M&A Repuestos - Servicio Técnico",
+  "short_name": "M&A Repuestos",
+  "description": "Sistema de órdenes, clientes, reparaciones y garantías.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f4f6f8",
+  "theme_color": "#0b1e32",
+  "icons": [
+    { "src": "/brand-logo.jpg", "sizes": "512x512", "type": "image/jpeg", "purpose": "any maskable" }
+  ]
+}
