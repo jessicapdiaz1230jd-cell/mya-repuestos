@@ -25,7 +25,7 @@ Sistema web instalable para administrar clientes, órdenes de servicio técnico,
 2. Crea en Supabase el primer usuario administrador. En sus metadatos de aplicación usa `{"role":"admin"}`.
 3. Copia `.env.example` como `.env.local` para desarrollo.
 4. Configura las mismas variables como secretos/variables del despliegue en Cloudflare.
-5. Crea y enlaza una base D1 como `DB` y un bucket R2 como `FILES`.
+5. Crea una base D1 y un bucket R2. Escribe sus datos en `CLOUDFLARE_D1_DATABASE_NAME`, `CLOUDFLARE_D1_DATABASE_ID` y `CLOUDFLARE_R2_BUCKET_NAME`.
 6. Ejecuta las migraciones de la carpeta `drizzle/` en orden.
 
 La clave `SUPABASE_SERVICE_ROLE_KEY` es secreta: nunca debe escribirse en archivos públicos ni usar el prefijo `NEXT_PUBLIC_`.
